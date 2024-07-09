@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    
+        font-family: "Merriweather", serif;
+    }
+
+.banner-container{
+    width: 1320px;
+    margin: 0 auto;
+   
+    min-height: 600px;
+    margin-top: 20px;
+    background-color: rgba(0,0,0,0.5);
+    background-image: url(new-year-offer-resources-main/new-year-offer-resources-main/images/Banner\ Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+
+
+.banner-content{
+    color: rgb(234, 224, 224);
+   
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    align-items: center;
+}
+.banner-content p {
+    font-size: 32px;
+    font-weight: 400;
+     
+}
+.banner-content h1 {
+    font-size: 72px;
+    font-weight: 900;
+}
+.Celebration{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
